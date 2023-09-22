@@ -10,7 +10,13 @@ const BOOKING_STATUS ={
     BOOKED:'booked',
     CANCELLED:'cancelled'
 }
+const EMAIL_STATUS={
+    SUCCESS:'success',
+    PENDING:'pending',
+    FAILED:'failed'
+}
 module.exports = {
     SEAT_TYPE,
-    BOOKING_STATUS
+    BOOKING_STATUS,
+    EMAIL_STATUS
 }
