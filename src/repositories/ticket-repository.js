@@ -1,5 +1,5 @@
 const CrudRepository = require('./crud-repository');
-const {Ticket} = require('../models');
+const {Ticket} = require('../models'); 
 const {Enums} = require('../utils/common')
 const {PENDING,SUCCESS,FAILED} = Enums.EMAIL_STATUS;
 class TicketRepository extends CrudRepository
